@@ -1,12 +1,7 @@
-### 万物之源
-在企业级开发中我们我们做一个项目首先需要去搭建项目结构, 有了良好的项目结构我们才能更快速, 更舒畅的搞开发,所以对于kona 的第一篇我们来研究微服务架构下的项目结构. 当然我们的服务是基于springboot2.x搭建的, 后续会使用springcloud生态
-
 ### 1.基础依赖---kona-dependencies
 1. 现在企业级项目大多数java项目都是基于maven管理的. 利用maven帮助我们管理jar包依赖, 构建项目. 说到jar包依赖, 我们首先做的第一件事情就是需要将企业中一个项目组乃至整个部门使用的jar包集中管理, 这里我们创建一个kona-dependencies项目, 这个项目的作用是管理我们的jar包依赖, 是所有项目的父项目. 这样的话我们之后创建的每一个服务继承这个顶层父项目就可以了
 
-2. [kona-dependencies](https://github.com/engjose/kona-dependencies.git)
-
-3. kona-dependencies 项目很简单,它仅仅是一个pom工程, 这里有几点需要注意一下:
+2. kona-dependencies 项目很简单,它仅仅是一个pom工程, 这里有几点需要注意一下:
 * kona-dependencies 项目的坐标: packaging: pom, 表明是一个pom工程
 ```
     <groupId>com.kona</groupId>
