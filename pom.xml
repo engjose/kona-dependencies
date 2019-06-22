@@ -37,7 +37,6 @@
         <commons.net.version>3.6</commons.net.version>
         <httpclient.version>4.5</httpclient.version>
         <fastjson.version>1.2.47</fastjson.version>
-        <jackson.version>2.8.8</jackson.version>
         <guava.version>21.0</guava.version>
         <lombok.version>1.18.4</lombok.version>
         <okhttp.version>3.14.0</okhttp.version>
@@ -54,7 +53,6 @@
         <sharding.jdbc.version>1.5.4.1</sharding.jdbc.version>
         <curator.version>2.12.0</curator.version>
         <mysql.version>5.1.45</mysql.version>
-        <jackson.version>2.8.11</jackson.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -160,16 +158,6 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-databind</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.dataformat</groupId>
-                <artifactId>jackson-dataformat-xml</artifactId>
-                <version>${jackson.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.google.guava</groupId>
