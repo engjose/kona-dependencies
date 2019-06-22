@@ -43,5 +43,5 @@
         </snapshotRepository>
     </distributionManagement>
 ```
-至此我们顶层项目依赖已经搭建完毕, 具体的项目大家可以克隆2 中对应的项目
+至此我们顶层项目依赖已经搭建完毕
 
