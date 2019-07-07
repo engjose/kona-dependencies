@@ -23,6 +23,7 @@
         <zipkin-finagle>1.1.0</zipkin-finagle>
         <dozer.version>5.5.1</dozer.version>
         <druid.version>1.1.10</druid.version>
+        <druid.springboot.version>1.1.9</druid.springboot.version>
         <hikari-cp.version>3.2.0</hikari-cp.version>
         <iharder.version>2.3.9</iharder.version>
         <qrgen.version>2.0</qrgen.version>
@@ -149,6 +150,11 @@
                 <version>${druid.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.springboot.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.zaxxer</groupId>
                 <artifactId>HikariCP</artifactId>
                 <version>${hikari-cp.version}</version>
@@ -212,6 +218,11 @@
                 <groupId>org.apache.maven.plugin-tools</groupId>
                 <artifactId>maven-plugin-annotations</artifactId>
                 <version>${maven.plugin.annotations.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pagehelper.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
