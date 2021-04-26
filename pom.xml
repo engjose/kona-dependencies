@@ -18,7 +18,7 @@
         <jedis.version>2.9.0</jedis.version>
         <quartz.version>2.2.2</quartz.version>
         <apache.poi.version>3.15</apache.poi.version>
-        <apache.io.version>2.2</apache.io.version>
+        <apache.io.version>2.7</apache.io.version>
         <freemarker.version>2.3.27-incubating</freemarker.version>
         <zipkin-finagle>1.1.0</zipkin-finagle>
         <dozer.version>5.5.1</dozer.version>
